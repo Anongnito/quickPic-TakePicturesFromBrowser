@@ -4,4 +4,4 @@
 
 Using pure JavaScript and glfx.js for effects.
 
-Thank you Evan Wallace for glfx.js
+Thank you Evan Wallace for glfx.js @evanw
