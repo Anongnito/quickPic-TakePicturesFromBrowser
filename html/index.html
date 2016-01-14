@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>QuickPic</title>
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div id="mainContainer">
+    <h3>Click the video to take a picture!</h3>
+    <select id="effectsList">
+        <option value="normal" selected>Normal</option>
+        <option value="vignette">Vignette</option>
+        <option value="vibrance">Vibrance</option>
+        <option value="noise">Noise</option>
+        <option value="sepia">Sepia</option>
+        <option value="hueSaturation">Black & White</option>
+        <option value="denoise">De-Noise</option>
+        <option value="unsharpmask">Unsharp Mask</option>
+        <option value="ink">Ink</option>
+    </select>
+    <div class="content">
+        <video id="cameraVideo" autoplay style="width: 640px; height: 480px; display: none"></video>
+        <img id="screenshot" src="">
+        <canvas id="canvasScreenshot" style="display: none"  width=640 height=480></canvas>
+
+        <br>
+
+        <ul>
+            <li><a id="downloadLink" href="" download>Download Picture</a></li>
+            <li><a id="newPicture" onclick="quickPic.newPicture();">New Picture</a></li>
+            <li><a id="takePicture">Take Picture</a></li>
+        </ul>
+    </div>
+</div>
+<script src="../js/glfx.js" type="text/javascript"></script>
+<script src="../js/main.js" type="text/javascript"></script>
+</body>
+</html>

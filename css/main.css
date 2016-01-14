@@ -1,0 +1,51 @@
+* {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+#downloadLink {
+    display: none;
+    background: #39d343;
+    width: 140px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    border-radius: 10px;
+    border: 1px solid;
+    margin: 0 auto;
+}
+
+#newPicture {
+    display: none;
+    background: #d3cc31;
+    width: 100px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    border-radius: 10px;
+    border: 1px solid;
+    margin: 0 auto;
+}
+
+#newPicture {
+    display: none;
+}
+
+#mainContainer{
+    position: absolute;
+    top: 50%;
+    margin-top: -240px;/* half of #content height*/
+    left: 0;
+    width: 100%;
+}
+
+.content {
+    width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 480px;
+}
+
+.content li {
+    display: inline-block;
+}
